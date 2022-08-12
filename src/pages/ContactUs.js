@@ -9,6 +9,7 @@ const ContactUs = () => {
       variants={pageAnimation}
       initial="hidden"
       animate="show"
+      style={{ background: "#fff" }}
     >
       <h1>Contuct Us</h1>
     </motion.div>

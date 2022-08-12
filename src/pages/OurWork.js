@@ -12,7 +12,13 @@ import goodtimes from "../img/goodtimes-small.png";
 
 const OurWork = () => {
   return (
-    <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
+    <Work
+      exit="exit"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      style={{ background: "#fff" }}
+    >
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
