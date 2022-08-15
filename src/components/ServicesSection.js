@@ -18,9 +18,9 @@ const ServicesSection = () => {
   return (
     <Services
       variants={scrollReveal}
-      animate={controls}
-      initial={"hidden"}
       ref={element}
+      animate={controls}
+      initial="hidden"
     >
       <Description>
         <h2>
