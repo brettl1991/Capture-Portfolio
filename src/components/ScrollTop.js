@@ -5,7 +5,11 @@ const ScrollTop = () => {
   const { pathname } = useLocation();
   console.log("bla/", pathname);
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const timer = setTimeout(
+      () => window.scrollTo(0, 0, { behavior: "smooth" }),
+      500
+    );
+    return () => clearTimeout(timer);
   }, [pathname]);
   return null;
 };
