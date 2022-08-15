@@ -95,7 +95,7 @@ const Line = styled(motion.div)`
   position: absolute;
   bottom: -80%;
   left: 60%;
-  @media screen(max-width:1300px) {
+  @media (max-width: 1300px) {
     left: 0%;
   }
 `;
