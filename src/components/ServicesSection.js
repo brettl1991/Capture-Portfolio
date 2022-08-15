@@ -91,6 +91,9 @@ const Card = styled.div`
       padding: 1rem;
     }
   }
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
 `;
 
 export default ServicesSection;
